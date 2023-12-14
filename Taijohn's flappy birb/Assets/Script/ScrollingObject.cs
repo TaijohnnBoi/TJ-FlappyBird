@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScrollingObject : MonoBehaviour { 
 
     private Rigidbody2D rb2d;
+
     void Start ()
     {
         rb2d = GetComponent<Rigidbody2D> (); 
@@ -12,7 +13,7 @@ public class ScrollingObject : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void Update ()
     {
         if (GameControl.instance.gameOver == true)
         {
