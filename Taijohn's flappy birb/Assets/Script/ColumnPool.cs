@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ColumnPool : MonoBehaviour {
+public class ColumnPool : MonoBehaviour
+{
 
     public int columnPoolSize = 5;
     public GameObject columnPrefab;
@@ -12,6 +13,7 @@ public class ColumnPool : MonoBehaviour {
 
     private GameObject[] columns;
     private Vector2 objectPoolPosition = new Vector2(-15f, -25f);
+
     private float timeSinceLastSpawned;
     private float spawnXPosition = 10;
     private int currentColumn = 0;
@@ -20,9 +22,9 @@ public class ColumnPool : MonoBehaviour {
     void Start()
     {
         columns = new GameObject[columnPoolSize];
-        for (int i = 0; 1 < columnPoolSize; i++)
+        for (int i = 0; i < columnPoolSize; i++)
         {
-            columns [1] = (GameObject)Instantiate(columnPrefab, objectPoolPosition, Quaternion.identity);
+            columns [i] = (GameObject)Instantiate(columnPrefab, objectPoolPosition, Quaternion.identity);
         }
     }
 
