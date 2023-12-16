@@ -44,6 +44,7 @@ public class Bird : MonoBehaviour {
         IsDead = true;
         anim.SetTrigger("Die");
         GameControl.instance.BirdDied();
+        PlaySound(dieSound);
     }
     public void PlaySound(AudioClip clip)
     {
