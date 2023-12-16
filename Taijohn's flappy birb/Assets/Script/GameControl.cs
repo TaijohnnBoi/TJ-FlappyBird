@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class GameControl : MonoBehaviour { 
+public class GameControl : MonoBehaviour
+{ 
 
     public static GameControl instance;
     public GameObject GameOverText;
@@ -17,9 +18,11 @@ public class GameControl : MonoBehaviour {
 
     void Awake ()
     {
-        if (instance == null) { 
+        if (instance == null) 
+        { 
             instance = this;
-        } else if (instance != this)
+        } 
+        else if (instance != this)
         {
             Destroy (gameObject);
         }
@@ -28,7 +31,8 @@ public class GameControl : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        if (gameOver == true && Input.GetMouseButtonDown (0))
+        if (gameOver == true && Input.GetMouseButtonDown(0)) 
+           
         {
             SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
         }

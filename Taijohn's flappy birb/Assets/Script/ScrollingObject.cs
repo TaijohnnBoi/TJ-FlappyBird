@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScrollingObject : MonoBehaviour { 
+public class ScrollingObject : MonoBehaviour 
+{ 
 
     private Rigidbody2D rb2d;
 

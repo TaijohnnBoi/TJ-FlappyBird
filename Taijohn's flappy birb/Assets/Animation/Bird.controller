@@ -61,7 +61,7 @@ AnimatorStateMachine:
     m_Position: {x: 370, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -722472770294052377}
-    m_Position: {x: 410, y: 130, z: 0}
+    m_Position: {x: 420, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3498238067429077239}
     m_Position: {x: 140, y: 210, z: 0}
@@ -140,14 +140,14 @@ AnimatorController:
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
-    m_Controller: {fileID: 9100000}
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: Die
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
