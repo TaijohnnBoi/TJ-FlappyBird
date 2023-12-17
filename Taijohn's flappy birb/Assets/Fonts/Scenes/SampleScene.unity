@@ -341,6 +341,7 @@ MonoBehaviour:
   columnPoolSize: 5
   columnPrefab: {fileID: 5527000883393720744, guid: 77daedc1bcf268a47acc909bde7c440f, type: 3}
   spawnRate: 4
+<<<<<<< Updated upstream
   columnMin: 1
   columnMax: 3
 --- !u!82 &180288981
@@ -439,6 +440,10 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+  columnMin: -2
+  columnMax: 2
+>>>>>>> Stashed changes
 --- !u!1 &323642813
 GameObject:
   m_ObjectHideFlags: 0
